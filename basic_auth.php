@@ -1,3 +1,14 @@
+/*
+
+-----------Usage-------------
+
+$auth = new Auth($db);
+if($auth->login($username,$password)){
+    header("Location: index");
+}
+
+*/
+
 <?php
 
 class Auth
